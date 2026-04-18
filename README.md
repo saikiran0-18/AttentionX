@@ -38,10 +38,10 @@ Demo link:https://drive.google.com/file/d/1413fyPK1KzEbtic6G7GvN_dQDVY7qsmb/view
 ## Screenshots
 
 ### Home Page
-![Home Page](screenshots/screenshot1.png)
+![Home Page](Screenshots/screenshot1.png)
 
 ### Processing Page
-![Processing Page](screenshots/screenshot2.png)
+![Processing Page](Screenshots/screenshot2.png)
 
 ### Output Clip
-![Output Clip](screenshots/screenshot3.png)
+![Output Clip](Screenshots/screenshot3.png)
