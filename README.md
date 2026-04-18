@@ -1,23 +1,31 @@
 # AttentionX - Automated Content Repurposing Engine
 
-## Problem
-Long-form mentorship, lecture, and workshop videos contain valuable moments, but users consume content in short-form format.
+## Problem Statement
+Long-form educational, mentorship, and workshop videos contain valuable information, but modern audiences usually prefer short-form content. Finding important moments manually, converting videos into vertical format, and adding captions takes time and effort.
 
 ## Solution
-This app:
-- uploads a long video
-- transcribes it
-- finds top highlight moments
-- cuts short clips
+AttentionX is a prototype that takes a long-form video and automatically:
+- transcribes the speech
+- finds highlight moments
+- extracts short clips
 - converts them into vertical format
-- adds captions
+- adds captions for short-form platforms
+
+## Features
+- Upload long video
+- Automatic speech transcription
+- Highlight detection
+- Short clip generation
+- Vertical video formatting
+- Caption overlay
 
 ## Tech Stack
 - Python
 - Streamlit
-- Whisper
+- OpenAI Whisper
 - MoviePy
 - OpenCV
+- FFmpeg
 
 ## How to Run
 ```bash

@@ -25,7 +25,7 @@ def center_crop_to_vertical(clip, target_w=1080, target_h=1920):
 
 
 def create_caption_clip(text: str, width: int, height: int, duration: float):
-    wrapped = "\n".join(textwrap.wrap(text, width=28))
+    wrapped = "\n".join(textwrap.wrap(text, width=40))
 
     txt = TextClip(
         text=wrapped,
@@ -35,7 +35,7 @@ def create_caption_clip(text: str, width: int, height: int, duration: float):
         size=(int(width * 0.88), None)
     ).with_duration(duration)
 
-    y_pos = int(height * 0.72)
+    y_pos = int(height * 0.82)
     txt = txt.with_position(("center", y_pos))
 
     return txt

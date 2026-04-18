@@ -74,7 +74,7 @@ if uploaded_file is not None:
 
             for i, h in enumerate(highlights, start=1):
                 out_path = os.path.join(OUTPUT_DIR, f"clip_{i}.mp4")
-                caption = h["text"][:120]
+                caption = h["text"][:35]
 
                 export_highlight_clip(
                     video_path=UPLOAD_PATH,
