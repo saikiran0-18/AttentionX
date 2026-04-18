@@ -31,3 +31,17 @@ AttentionX is a prototype that takes a long-form video and automatically:
 ```bash
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
+
+## Demo Video
+Demo link:https://drive.google.com/file/d/1413fyPK1KzEbtic6G7GvN_dQDVY7qsmb/view?usp=drivesdk
+
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/screenshot1.png)
+
+### Processing Page
+![Processing Page](screenshots/screenshot2.png)
+
+### Output Clip
+![Output Clip](screenshots/screenshot3.png)
